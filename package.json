@@ -1,0 +1,14 @@
+{
+  "name": "coreconfig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "coreconfig.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "helper": "git+https://github.com/rickyhadi/helper.git"
+  }
+}
