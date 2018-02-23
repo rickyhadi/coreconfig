@@ -1,6 +1,10 @@
-function coreconfig (appConfig, staticConfig, versionConfig, languageConfig){
+function coreconfig (){
 	var rootdir = env.rootdir || __dirname;
-	var helper = require('helper')(appConfig);
+	var appConfig = require('appconfig');
+	var staticConfig = require('staticconfig');
+	var versionConfig = require('versionconfig');
+	var languageConfig = require('languageconfig');
+	var helper = require('helper')();
 	
 	var obj = {};
 	obj.getCoreConfig = async function(section, req) {

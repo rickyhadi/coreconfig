@@ -9,6 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "helper": "git+https://github.com/rickyhadi/helper.git"
+    "appconfig": "git+https://github.com/rickyhadi/appconfig.git",
+    "helper": "git+https://github.com/rickyhadi/helper.git",
+    "languageconfig": "git+https://github.com/rickyhadi/languageconfig.git",
+    "staticconfig": "git+https://github.com/rickyhadi/staticconfig.git",
+    "versionconfig": "git+https://github.com/rickyhadi/versionconfig.git"
   }
 }
