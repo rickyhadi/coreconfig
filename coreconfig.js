@@ -1,4 +1,4 @@
-function coreconfig (appConfig, staticConfig, versionConfig, languageConfig
+function coreconfig (appConfig, staticConfig, versionConfig, languageConfig){
 	var rootdir = env.rootdir || __dirname;
 	var helper = require('helper')(appConfig);
 	
