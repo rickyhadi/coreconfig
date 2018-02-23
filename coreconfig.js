@@ -25,7 +25,7 @@ function coreconfig (appConfig, staticConfig, versionConfig, languageConfig){
 		}
 		var Lang = 'en-US';//needchange : getlanguage
 		var LangFiles = languageConfig['_langFiles'][Lang.toLowerCase()];
-		var BasePath = basedir;
+		var BasePath = rootdir;
 		var Browser =  helper.getClientBrowser(req);
 		var CurrentDate = new Date();
 		var Year = CurrentDate.getFullYear();
